@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^12.8.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  },
+  "scripts": {
+    "cy_live": "cypress open",
+    "cy_headless": "cypress run",
+    "cy_headed": "cypress run --headed",
+    "cy_headed_chrome": "cypress run --headed --browser chrome"
+  }
+}
